@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		D01D77831E76BC8D0056C3D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D77821E76BC8D0056C3D9 /* AppDelegate.swift */; };
-		D01D77851E76BC8D0056C3D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D77841E76BC8D0056C3D9 /* ViewController.swift */; };
-		D01D77881E76BC8D0056C3D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01D77861E76BC8D0056C3D9 /* Main.storyboard */; };
 		D01D778A1E76BC8D0056C3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01D77891E76BC8D0056C3D9 /* Assets.xcassets */; };
 		D01D778D1E76BC8D0056C3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01D778B1E76BC8D0056C3D9 /* LaunchScreen.storyboard */; };
 		D01D77981E76BC8D0056C3D9 /* TaoBaoTabbarDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D77971E76BC8D0056C3D9 /* TaoBaoTabbarDemoTests.swift */; };
 		D01D77A31E76BC8D0056C3D9 /* TaoBaoTabbarDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D77A21E76BC8D0056C3D9 /* TaoBaoTabbarDemoUITests.swift */; };
+		D01D77B11E76BD920056C3D9 /* ZLMTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D77B01E76BD920056C3D9 /* ZLMTabBarViewController.swift */; };
+		D01D77B31E76BDF10056C3D9 /* ZLMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D77B21E76BDF10056C3D9 /* ZLMHomeViewController.swift */; };
+		D01D77B51E76BE080056C3D9 /* ZLMCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D77B41E76BE080056C3D9 /* ZLMCategoryViewController.swift */; };
+		D01D77B71E76BE190056C3D9 /* ZLMSaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D77B61E76BE190056C3D9 /* ZLMSaleViewController.swift */; };
+		D01D77B91E76BE350056C3D9 /* ZLMShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D77B81E76BE350056C3D9 /* ZLMShoppingCartViewController.swift */; };
+		D01D77BB1E76BE490056C3D9 /* ZLMMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D77BA1E76BE490056C3D9 /* ZLMMineViewController.swift */; };
+		D01D77BD1E76BE6B0056C3D9 /* like.caf in Resources */ = {isa = PBXBuildFile; fileRef = D01D77BC1E76BE6B0056C3D9 /* like.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +41,6 @@
 /* Begin PBXFileReference section */
 		D01D777F1E76BC8D0056C3D9 /* TaoBaoTabbarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaoBaoTabbarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01D77821E76BC8D0056C3D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D01D77841E76BC8D0056C3D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D01D77871E76BC8D0056C3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D01D77891E76BC8D0056C3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D01D778C1E76BC8D0056C3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D01D778E1E76BC8D0056C3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,13 @@
 		D01D779E1E76BC8D0056C3D9 /* TaoBaoTabbarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaoBaoTabbarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01D77A21E76BC8D0056C3D9 /* TaoBaoTabbarDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaoBaoTabbarDemoUITests.swift; sourceTree = "<group>"; };
 		D01D77A41E76BC8D0056C3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01D77B01E76BD920056C3D9 /* ZLMTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMTabBarViewController.swift; sourceTree = "<group>"; };
+		D01D77B21E76BDF10056C3D9 /* ZLMHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMHomeViewController.swift; sourceTree = "<group>"; };
+		D01D77B41E76BE080056C3D9 /* ZLMCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMCategoryViewController.swift; sourceTree = "<group>"; };
+		D01D77B61E76BE190056C3D9 /* ZLMSaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMSaleViewController.swift; sourceTree = "<group>"; };
+		D01D77B81E76BE350056C3D9 /* ZLMShoppingCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMShoppingCartViewController.swift; sourceTree = "<group>"; };
+		D01D77BA1E76BE490056C3D9 /* ZLMMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMMineViewController.swift; sourceTree = "<group>"; };
+		D01D77BC1E76BE6B0056C3D9 /* like.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = like.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,17 @@
 		D01D77811E76BC8D0056C3D9 /* TaoBaoTabbarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D01D77BC1E76BE6B0056C3D9 /* like.caf */,
+				D01D77B01E76BD920056C3D9 /* ZLMTabBarViewController.swift */,
 				D01D77821E76BC8D0056C3D9 /* AppDelegate.swift */,
-				D01D77841E76BC8D0056C3D9 /* ViewController.swift */,
-				D01D77861E76BC8D0056C3D9 /* Main.storyboard */,
 				D01D77891E76BC8D0056C3D9 /* Assets.xcassets */,
 				D01D778B1E76BC8D0056C3D9 /* LaunchScreen.storyboard */,
 				D01D778E1E76BC8D0056C3D9 /* Info.plist */,
+				D01D77B21E76BDF10056C3D9 /* ZLMHomeViewController.swift */,
+				D01D77B41E76BE080056C3D9 /* ZLMCategoryViewController.swift */,
+				D01D77B61E76BE190056C3D9 /* ZLMSaleViewController.swift */,
+				D01D77B81E76BE350056C3D9 /* ZLMShoppingCartViewController.swift */,
+				D01D77BA1E76BE490056C3D9 /* ZLMMineViewController.swift */,
 			);
 			path = TaoBaoTabbarDemo;
 			sourceTree = "<group>";
@@ -235,9 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01D77BD1E76BE6B0056C3D9 /* like.caf in Resources */,
 				D01D778D1E76BC8D0056C3D9 /* LaunchScreen.storyboard in Resources */,
 				D01D778A1E76BC8D0056C3D9 /* Assets.xcassets in Resources */,
-				D01D77881E76BC8D0056C3D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D01D77851E76BC8D0056C3D9 /* ViewController.swift in Sources */,
+				D01D77B91E76BE350056C3D9 /* ZLMShoppingCartViewController.swift in Sources */,
+				D01D77B11E76BD920056C3D9 /* ZLMTabBarViewController.swift in Sources */,
+				D01D77B31E76BDF10056C3D9 /* ZLMHomeViewController.swift in Sources */,
+				D01D77B51E76BE080056C3D9 /* ZLMCategoryViewController.swift in Sources */,
+				D01D77B71E76BE190056C3D9 /* ZLMSaleViewController.swift in Sources */,
+				D01D77BB1E76BE490056C3D9 /* ZLMMineViewController.swift in Sources */,
 				D01D77831E76BC8D0056C3D9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,14 +319,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D01D77861E76BC8D0056C3D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D01D77871E76BC8D0056C3D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D01D778B1E76BC8D0056C3D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -512,6 +524,7 @@
 				D01D77A91E76BC8D0056C3D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D01D77AA1E76BC8D0056C3D9 /* Build configuration list for PBXNativeTarget "TaoBaoTabbarDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +533,7 @@
 				D01D77AC1E76BC8D0056C3D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D01D77AD1E76BC8D0056C3D9 /* Build configuration list for PBXNativeTarget "TaoBaoTabbarDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +542,7 @@
 				D01D77AF1E76BC8D0056C3D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
